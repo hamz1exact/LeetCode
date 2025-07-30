@@ -25,7 +25,7 @@ $$
 Explaining
 $$
 
-![Visualization]([/image/sample.webp](https://ibb.co/20Z48qy3) "Visualization.")
+![This is an alt text.](https://ibb.co/20Z48qy3 "This is a sample image.")
 
 ```
 Simple Approach: We Buy In every Rallies
