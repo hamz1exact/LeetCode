@@ -29,7 +29,7 @@ You'll have access to all problems including cheet sheet where i do explain the 
 * Intervals
 * Math & Geometry
 * Bit Manipulation
-> Thanks To [**Neet Code**](www.neetcode.io) For This Comprehensive List
+> Thanks To [**Neet Code**](https://www.neetcode.io) For This Comprehensive List
 
 ---
 ## Get Started
