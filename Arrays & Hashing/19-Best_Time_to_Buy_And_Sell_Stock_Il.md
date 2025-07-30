@@ -25,7 +25,7 @@ $$
 Explaining
 $$
 
-![This is an alt text.](Arrays%20%26%20Hashing/images/Best_time_to_sell_stocks_VIS.jpg "This is a sample image.")
+![This is an alt text.](images/Best_time_to_sell_stocks_VIS.jpg "This is a sample image.")
 
 ```
 Simple Approach: We Buy In every Rallies
