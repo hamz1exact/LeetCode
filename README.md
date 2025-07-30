@@ -36,8 +36,8 @@ You'll have access to all problems including cheet sheet where i do explain the 
 
 | Topic                | Solved Problems | Link                                       |
 |:--------------------:|:---------------:|:------------------------------------------:|
-| **Arrays & Hashing** | 22              | [Click Here](https://neetcode.io/practice) |
-| **Two Pointers**     | 13              | [Click Here](https://neetcode.io/practice) |
+| [**Arrays & Hashing**](https://github.com/hamz1exact/ProblemSolving/tree/main/Arrays%20%26%20Hashing) | 22              | [Click Here](https://neetcode.io/practice) |
+| [**Two Pointers**](https://github.com/hamz1exact/ProblemSolving/tree/main/Two%20Pointers)     | 13              | [Click Here](https://neetcode.io/practice) |
 | **Sliding Window**   | 9               | [Click Here](https://neetcode.io/practice) |
 
 
