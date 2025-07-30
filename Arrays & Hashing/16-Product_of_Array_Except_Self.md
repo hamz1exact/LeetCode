@@ -15,15 +15,13 @@ $$
 ```python
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
-        prefix = 1
-        postfix = 1
         output = [1] * len(nums)
-        for i in range(len(nums)):
-            output[i] = prefix
-            prefix *= nums[i]
-        for i in range(len(nums)-1, -1, -1):
-            output[i] *= postfix
-            postfix *= nums[i]
+        for i in range(1, len(nums)):
+            output[i] = output[i-1] * nums[i-1]
+        PrevElement = nums[-1]
+        for j in range(len(nums)-2, -1, -1):
+            output[i] *= PrevElement
+            PrevElement *= nums[i]
         return output
 
 ```
@@ -51,4 +49,8 @@ loop 1 : 6 * 1 = 6, postfix = 1 * 4
 loop 2: 2 * 4 = 8, postfix = 4 * 3 = 12 
 loop 3: 1 * 12 = 12, postfix = 2 * 12 = 24
 loop 4: 1 * 24 = 24, postfix = 24 * 1
+
+Input: [1,2,3,4]
+Prefix Product: [1, 1, 2, 6]
+Output: [24,12,8,6]
 ```
