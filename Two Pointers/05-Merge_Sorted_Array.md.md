@@ -1,8 +1,11 @@
 # 5. Merge Sorted Array
 
 Difficulty: Medium
+***
 Status: Not Started
+***
 Link: https://neetcode.io/problems/merge-sorted-array?list=neetcode250
+***
 
 $$
 Solution
