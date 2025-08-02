@@ -1,8 +1,11 @@
 # 1. Contains Duplicate Il
 
 Difficulty: Easy
+
 Status: Mastred
+
 Priority: Medium
+
 Link: https://neetcode.io/problems/contains-duplicate-ii?list=neetcode250
 
 $$
