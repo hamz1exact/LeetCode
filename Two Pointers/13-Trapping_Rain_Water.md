@@ -13,7 +13,7 @@
 >>Return the maximum area of water that can be trapped between the bars.
 
 ##### Example 1:
-![Trapping Rain Water](/image/rain_water.png)
+![Trapping Rain Water](image/rain_water.png)
 
 `Input: height = [0,2,0,3,1,0,1,3,2,1]`
 `Output: 9`
