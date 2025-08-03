@@ -56,7 +56,7 @@ class Solution:
 $$
 Explaining
 $$
-
+```
 # To Achieve O(1) Solution We need to go thru these Steps:
 >> Step 1: we need create 2 arrays both of length 26, why 26?
 		 Because There Are 26 Characters in English.
@@ -67,7 +67,14 @@ $$
 		and ORD('b') == 2 so on.
 >> Step 3: We Check if the first N1 Characters was in the order by Default
 
->> Step 4: Start at index (n1) because if they were equal at the first Check we will have returned True, Because They Were not we will start at index n1, and add the current char and removing the old char by saying i - n1 which means if n1 was 2 we calculate the first char by i at the firs loop is equal to n1 to i - n1 == 2 - 2 == 0, means give me  the ORD of the char at index (0)
+>> Step 4: Start at index (n1) because if they were equal at the first Check we will have returned True,
+             Because They Were not we will start at index n1, and add the current char and 
+             removing the old char by saying i - n1 which means if 
+             n1 was 2 we calculate the first char by i at the 
+             first loop is equal to n1 to i - n1 == 2 - 2 == 0,
+             means give me  the ORD of the char at index (0)
+```
+
 
 $$
 Stuck-Point
