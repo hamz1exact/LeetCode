@@ -2,7 +2,7 @@
 
 Difficulty: Medium
 
-[Problem Link](https://neetcode.io/problems/minimum-size-subarray-sum?list=neetcode250)
+[Problem Link](https://neetcode.io/problems/find-k-closest-elements?list=neetcode250)
 
 $$
 The Problem
