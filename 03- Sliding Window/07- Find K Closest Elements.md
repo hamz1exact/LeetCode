@@ -44,7 +44,7 @@ class Solution:
 ```
 
 $$
-Explaining
+Explaining/
 $$
 
 ```markdown
