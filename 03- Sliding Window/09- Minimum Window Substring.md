@@ -3,6 +3,7 @@
 Difficulty: Hard
 
 [Problem Link](https://neetcode.io/problems/minimum-window-with-characters?list=neetcode250)
+
 $$
 The Problem
 $$
