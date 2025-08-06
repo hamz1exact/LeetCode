@@ -34,13 +34,12 @@ You'll have access to all problems including cheet sheet where i do explain the 
 ---
 ## Get Started
 
-| Topic                | Solved Problems    | Link                                       |
-|:--------------------:|:---------------:                   |:------------------------------------------:|
-| [**Arrays & Hashing**](https://github.com/hamz1exact/ProblemSolving/tree/main/Arrays%20%26%20Hashing) | 27              | [Practice Here](https://neetcode.io/practice) |
-| [**Two Pointers**](https://github.com/hamz1exact/ProblemSolving/tree/main/Two%20Pointers)     | 13              | [Practice Here](https://neetcode.io/practice) |
-| [**Sliding Window**](https://github.com/hamz1exact/ProblemSolving/tree/main/03-%20Sliding%20Window)   | 9               | [Practice Here](https://neetcode.io/practice) |
-
-
+| Topic | Solved Problems | Link |
+| ----- | --------------- | ---- |
+| [Arrays & Hashing](https://github.com/hamz1exact/ProblemSolving/tree/main/Arrays%20%26%20Hashing) | `27` | [Practice Here](https://neetcode.io/practice) |
+| [Two Pointers](https://github.com/hamz1exact/ProblemSolving/tree/main/Two%20Pointers) | `13` | [Practice Here](https://neetcode.io/practice) |
+| [Sliding Window](https://github.com/hamz1exact/ProblemSolving/tree/main/03-%20Sliding%20Window) | `10` | [Practice Here](https://neetcode.io/practice) |
+| [Linked List](https://github.com/hamz1exact/ProblemSolving/tree/main/04-%20Linked%20List) | `22` | [Practice Here](https://neetcode.io/practice) |
 
 
 
