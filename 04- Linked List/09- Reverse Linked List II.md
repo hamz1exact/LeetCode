@@ -36,7 +36,7 @@ class Solution:
     def reverseBetween(self, head: Optional[ListNode], left: int, right: int) -> Optional[ListNode]:
         if not head:
             return
-        dummy = ListNode(0, head)
+        dummy = ListNode(0, head) 
         priorLeft = dummy
         current = head
         for _ in range(left - 1):
