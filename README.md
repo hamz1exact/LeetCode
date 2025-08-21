@@ -40,7 +40,7 @@ You'll have access to all problems including cheet sheet where i do explain the 
 | [Two Pointers](https://github.com/hamz1exact/ProblemSolving/tree/main/Two%20Pointers) | `13` | [Practice Here](https://neetcode.io/practice) |
 | [Sliding Window](https://github.com/hamz1exact/ProblemSolving/tree/main/03-%20Sliding%20Window) | `10` | [Practice Here](https://neetcode.io/practice) |
 | [Linked List](https://github.com/hamz1exact/ProblemSolving/tree/main/04-%20Linked%20List) | `22` | [Practice Here](https://neetcode.io/practice) |
-
+| [Stack](https://github.com/hamz1exact/ProblemSolving/tree/main/05-%20Stack) | `10` | [Practice Here](https://neetcode.io/practice) |
 
 
 
