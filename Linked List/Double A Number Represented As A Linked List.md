@@ -1,12 +1,10 @@
 # 2816. Double a Number Represented as a Linked List
 
 Difficulty: Medium
-Status: Need to be reviewed
 Priority: High
 Topic: Linked List
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: August 13, 2025 2:04 AM
 
 $$
 Solution

@@ -2,13 +2,11 @@
 
 Link: https://neetcode.io/problems/meeting-schedule
 Difficulty: Easy
-Status: Mastred
 Patterns: Indexing, Iteration
 Priority: Medium
 Topic: Array
 Time Complexity: O(n)
 Space Complexity: O(1)
-Created time: August 3, 2025 9:23 PM
 
 $$
 Solution

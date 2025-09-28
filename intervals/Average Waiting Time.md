@@ -1,13 +1,10 @@
 # 1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold
 
 Difficulty: Medium
-Status: Mastred
 Priority: High
 Topic: Array
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: August 15, 2025 2:43 AM
-Solved by my own: True
 
 $$
 Solution

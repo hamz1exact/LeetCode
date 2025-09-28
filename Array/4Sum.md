@@ -2,13 +2,11 @@
 
 Link: https://leetcode.com/problems/4sum/
 Difficulty: Medium
-Status: Need to be reviewed
 Patterns: TreePointers, Two Pointers
 Priority: High
 Topic: Array
 Time Complexity: O(n)
 Space Complexity: O(1)
-Created time: August 2, 2025 12:46 AM
 
 $$
 Solution

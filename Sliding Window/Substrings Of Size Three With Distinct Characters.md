@@ -1,13 +1,10 @@
 # 1876. Substrings of Size Three with Distinct Characters
 
 Difficulty: Easy
-Status: Mastred
 Priority: High
 Topic: Sliding Window
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: August 28, 2025 10:03 PM
-Solved by my own: True
 
 $$
 Solution

@@ -1,12 +1,10 @@
 # 904. Fruit Into Baskets
 
 Difficulty: Medium
-Status: Mastred
 Priority: High
 Topic: Array, Hash Table / Map / Set
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: August 10, 2025 2:30 AM
 
 $$
 Solution

@@ -2,13 +2,11 @@
 
 Link: https://leetcode.com/problems/find-closest-number-to-zero/description/
 Difficulty: Easy
-Status: Mastred
 Patterns: Iteration
 Priority: Low
 Topic: Array
 Time Complexity: O(n)
 Space Complexity: O(1)
-Created time: July 30, 2025 9:27 PM
 
 $$
 Solution

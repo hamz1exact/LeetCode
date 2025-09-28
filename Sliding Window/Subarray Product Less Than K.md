@@ -1,13 +1,10 @@
 # 2962. Count Subarrays Where Max Element Appears at Least K Times
 
 Difficulty: Medium
-Status: Need to be reviewed
 Priority: High
 Topic: Sliding Window
 Time Complexity: O(n)
 Space Complexity: O(1)
-Created time: August 23, 2025 2:13 PM
-Solved by my own: False
 
 $$
 Solution

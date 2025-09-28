@@ -1,13 +1,10 @@
 # 160. Intersection of Two Linked Lists
 
 Difficulty: Easy
-Status: Mastred
 Priority: High
 Topic: Linked List
 Time Complexity: O(n)
 Space Complexity: O(1)
-Created time: August 15, 2025 12:12 AM
-Solved by my own: True
 
 $$
 Solution

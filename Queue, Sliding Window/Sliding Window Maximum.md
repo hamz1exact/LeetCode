@@ -1,13 +1,10 @@
 # 239. Sliding Window Maximum
 
 Difficulty: Hard
-Status: Mastred
 Priority: High
 Topic: Queue, Sliding Window
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: August 28, 2025 10:01 PM
-Solved by my own: False
 
 $$
 Solution

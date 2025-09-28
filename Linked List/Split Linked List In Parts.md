@@ -1,13 +1,10 @@
 # 725. Split Linked List in Parts
 
 Difficulty: Medium
-Status: Mastred
 Priority: Medium
 Topic: Linked List
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: September 2, 2025 1:31 PM
-Solved by my own: True
 
 $$
 Solution

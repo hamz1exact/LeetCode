@@ -2,13 +2,11 @@
 
 Link: https://leetcode.com/problems/kth-distinct-string-in-an-array/description/
 Difficulty: Easy
-Status: Mastred
 Patterns: Counting, Hashing, String
 Priority: High
 Topic: Array, String
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: August 9, 2025 5:40 PM
 
 $$
 Solution

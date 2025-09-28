@@ -1,13 +1,10 @@
 # 150. Evaluate Reverse Polish Notation
 
 Difficulty: Medium
-Status: Need to be reviewed
 Priority: Medium
 Topic: Stack
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: August 31, 2025 10:06 PM
-Solved by my own: False
 
 $$
 Solution

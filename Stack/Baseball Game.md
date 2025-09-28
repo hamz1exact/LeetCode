@@ -1,13 +1,10 @@
 # 682. Baseball Game
 
 Difficulty: Easy
-Status: Mastred
 Priority: Low
 Topic: Stack
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: August 16, 2025 3:25 AM
-Solved by my own: True
 
 $$
 Solution

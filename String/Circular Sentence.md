@@ -1,13 +1,10 @@
 # 622. Design Circular Queue
 
 Difficulty: Medium
-Status: Mastred
 Priority: High
 Topic: Linked List
 Time Complexity: O(n)
 Space Complexity: O(1)
-Created time: August 28, 2025 12:57 PM
-Solved by my own: True
 
 $$
 Solution

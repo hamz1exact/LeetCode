@@ -2,13 +2,11 @@
 
 Link: https://leetcode.com/problems/top-k-frequent-elements/description/
 Difficulty: Medium
-Status: Need to be reviewed
 Patterns: Hashing, Sorting
 Priority: High
 Topic: Hash Table / Map / Set
 Time Complexity: O(n Log n)
 Space Complexity: O(n)
-Created time: July 10, 2025 7:06 PM
 
 $$
 My Solution:

@@ -1,12 +1,10 @@
-# 3110. Score of a String
+# 2302. Count Subarrays With Score Less Than K
 
-Difficulty: Easy
-Status: Mastred
+Difficulty: Hard
 Priority: Medium
-Topic: String
+Topic: Sliding Window
 Time Complexity: O(n)
-Space Complexity: O(1)
-Created time: August 10, 2025 2:32 AM
+Space Complexity: O(n)
 
 $$
 Solution
@@ -14,13 +12,20 @@ $$
 
 ```python
 class Solution:
-    def scoreOfString(self, s: str) -> int:
-        if len(s) < 2:
-            return 0
-        ans = 0
-        for i in range(1, len(s)):
-            ans += abs(ord(s[i]) - ord(s[i-1]))
-        return ans
+    def countSubarrays(self, nums: List[int], k: int) -> int:
+
+        l = 0
+        summ = 0
+        max_cnt = 0
+        cnt = 0
+        for r in range(len(nums)):
+            summ += nums[r]
+            while summ*(r-l+1) >= k:
+                summ -= nums[l]
+                l += 1
+            if summ * (r-l+1) < k:
+                cnt += (r-l+1)
+        return cnt
 ```
 
 $$

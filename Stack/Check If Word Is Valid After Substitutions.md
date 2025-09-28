@@ -1,13 +1,10 @@
 # 1003. Check If Word Is Valid After Substitutions
 
 Difficulty: Medium
-Status: Mastred
 Priority: Medium
 Topic: Stack
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: August 31, 2025 11:38 PM
-Solved by my own: True
 
 $$
 Solution

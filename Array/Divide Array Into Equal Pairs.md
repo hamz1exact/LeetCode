@@ -1,12 +1,10 @@
 # 2206. Divide Array Into Equal Pairs
 
 Difficulty: Easy
-Status: Mastred
 Priority: High
 Topic: Array
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: August 10, 2025 2:30 AM
 
 $$
 Solution

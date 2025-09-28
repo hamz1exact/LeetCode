@@ -2,13 +2,11 @@
 
 Link: https://leetcode.com/problems/jewels-and-stones/description/
 Difficulty: Easy
-Status: Mastred
 Patterns: Hashing
 Priority: Medium
 Topic: Hash Table / Map / Set
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: July 29, 2025 8:00 PM
 
 $$
 Solution

@@ -1,39 +1,38 @@
-# 155. Min Stack
+# 1249. Minimum Remove to Make Valid Parentheses
 
 Difficulty: Medium
-Status: Mastred
-Priority: High
-Topic: Design, Stack
+Priority: Medium
+Topic: Stack
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: August 16, 2025 3:39 AM
-Solved by my own: True
 
 $$
 Solution
 $$
 
 ```python
-class MinStack:
+class Solution:
+    def minRemoveToMakeValid(self, s: str) -> str:
 
-    def __init__(self):
-        self.stack = []
-        self.minstack = []
-    def push(self, val: int) -> None:
-        if not self.minstack:
-            self.minstack.append(val)	
-        elif val <= self.minstack[-1]:
-            self.minstack.append(val)
-        self.stack.append(val)
-        return
-    def pop(self) -> None:
-        if self.stack[-1] == self.minstack[-1]:
-            self.minstack.pop()
-        self.stack.pop()
-    def top(self) -> int:
-        return self.stack[-1] if self.stack else None
-    def getMin(self) -> int:
-        return self.minstack[-1] if self.minstack else None
+        valid_string = ""
+        stack = []
+        unique_case = []
+        for i,char in enumerate(s):
+            if char == ")" and not stack:
+                unique_case.append(i)
+            elif char == "(":
+                stack.append(i)
+            elif char == ")":
+                stack.pop()
+        stack += unique_case
+        stack = set(stack)
+        for i, char in enumerate(s):
+            if i in stack:
+                continue
+            else:
+                valid_string += char
+        return valid_string
+
 ```
 
 $$

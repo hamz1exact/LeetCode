@@ -1,12 +1,10 @@
 # 3217. Delete Nodes From Linked List Present in Array
 
 Difficulty: Medium
-Status: Mastred
 Priority: High
 Topic: Linked List
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: August 10, 2025 2:38 AM
 
 $$
 Solution

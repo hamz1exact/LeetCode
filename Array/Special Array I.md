@@ -1,13 +1,10 @@
 # 1475. Final Prices With a Special Discount in a Shop
 
 Difficulty: Easy
-Status: Mastred
 Priority: Low
 Topic: Stack
 Time Complexity: O(n²)
 Space Complexity: O(n)
-Created time: August 21, 2025 12:51 PM
-Solved by my own: True
 
 $$
 Solution

@@ -2,13 +2,11 @@
 
 Link: https://leetcode.com/problems/merge-intervals/submissions/1709690892/
 Difficulty: Medium
-Status: Need to be reviewed
 Patterns: Indexing, Iteration, Sorting
 Priority: High
 Topic: Array
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: July 24, 2025 1:39 PM
 
 $$
 Solution

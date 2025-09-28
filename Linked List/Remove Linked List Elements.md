@@ -1,19 +1,37 @@
-# 1209. Remove All Adjacent Duplicates in String II
+# 1249. Minimum Remove to Make Valid Parentheses
 
 Difficulty: Medium
-Status: Need to be reviewed
-Priority: High
+Priority: Medium
 Topic: Stack
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: August 21, 2025 12:47 PM
-Solved by my own: False
 
 $$
 Solution
 $$
 
 ```python
+class Solution:
+    def minRemoveToMakeValid(self, s: str) -> str:
+
+        valid_string = ""
+        stack = []
+        unique_case = []
+        for i,char in enumerate(s):
+            if char == ")" and not stack:
+                unique_case.append(i)
+            elif char == "(":
+                stack.append(i)
+            elif char == ")":
+                stack.pop()
+        stack += unique_case
+        stack = set(stack)
+        for i, char in enumerate(s):
+            if i in stack:
+                continue
+            else:
+                valid_string += char
+        return valid_string
 
 ```
 

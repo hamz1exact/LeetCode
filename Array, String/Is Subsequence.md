@@ -2,13 +2,11 @@
 
 Link: https://leetcode.com/problems/isomorphic-strings/
 Difficulty: Medium
-Status: Mastred
 Patterns: Hashing
 Priority: Medium
 Topic: Hash Table / Map / Set
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: July 15, 2025 2:45 PM
 
 $$
 python

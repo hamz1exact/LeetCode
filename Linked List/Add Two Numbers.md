@@ -1,12 +1,10 @@
 # 445. Add Two Numbers II
 
 Difficulty: Medium
-Status: Need to be reviewed
 Priority: High
 Topic: Linked List
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: August 13, 2025 1:25 AM
 
 $$
 Solution

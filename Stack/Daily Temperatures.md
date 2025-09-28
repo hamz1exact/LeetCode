@@ -1,13 +1,10 @@
 # 739. Daily Temperatures
 
 Difficulty: Medium
-Status: Mastred
 Priority: Medium
 Topic: Stack
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: August 18, 2025 6:56 PM
-Solved by my own: True
 
 $$
 Solution

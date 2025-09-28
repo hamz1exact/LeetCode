@@ -2,13 +2,11 @@
 
 Link: https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/description/
 Difficulty: Easy
-Status: Mastred
 Patterns: Iteration
 Priority: Low
 Topic: Array
 Time Complexity: O(n)
 Space Complexity: O(1)
-Created time: August 3, 2025 12:45 AM
 
 $$
 Solution

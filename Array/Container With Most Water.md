@@ -2,13 +2,11 @@
 
 Link: https://leetcode.com/problems/container-with-most-water/description/
 Difficulty: Medium
-Status: Mastred
 Patterns: Two Pointers
 Priority: High
 Topic: Array
 Time Complexity: O(n)
 Space Complexity: O(1)
-Created time: July 20, 2025 3:07 PM
 
 $$
 Python

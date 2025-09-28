@@ -1,13 +1,10 @@
 # 2379. Minimum Recolors to Get K Consecutive Black Blocks
 
 Difficulty: Easy
-Status: Mastred
 Priority: High
 Topic: Array
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: August 15, 2025 2:43 AM
-Solved by my own: True
 
 $$
 Solution

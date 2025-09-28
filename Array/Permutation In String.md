@@ -2,13 +2,11 @@
 
 Link: https://leetcode.com/problems/permutation-in-string/description/
 Difficulty: Medium
-Status: Mastred
 Patterns: Sliding Window
 Priority: High
 Topic: Array
 Time Complexity: O(n)
 Space Complexity: None
-Created time: July 6, 2025 4:33 PM
 
 ```python
 Solution:

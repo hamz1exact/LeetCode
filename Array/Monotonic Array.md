@@ -1,12 +1,10 @@
 # 896. Monotonic Array
 
 Difficulty: Easy
-Status: Mastred
 Priority: Medium
 Topic: Array
 Time Complexity: O(n)
 Space Complexity: O(1)
-Created time: August 10, 2025 2:30 AM
 
 $$
 Solution

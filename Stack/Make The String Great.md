@@ -1,13 +1,10 @@
-# 921. Minimum Add to Make Parentheses Valid
+# 1249. Minimum Remove to Make Valid Parentheses
 
 Difficulty: Medium
-Status: Mastred
 Priority: Medium
 Topic: Stack
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: August 21, 2025 12:47 PM
-Solved by my own: True
 
 $$
 Solution
@@ -15,17 +12,26 @@ $$
 
 ```python
 class Solution:
-    def minAddToMakeValid(self, s: str) -> int:
+    def minRemoveToMakeValid(self, s: str) -> str:
+
+        valid_string = ""
         stack = []
-        for token in s:
-            if not stack:
-                stack.append(token)
-                continue
-            if stack and stack[-1] == "(" and  token == ')':
+        unique_case = []
+        for i,char in enumerate(s):
+            if char == ")" and not stack:
+                unique_case.append(i)
+            elif char == "(":
+                stack.append(i)
+            elif char == ")":
                 stack.pop()
+        stack += unique_case
+        stack = set(stack)
+        for i, char in enumerate(s):
+            if i in stack:
+                continue
             else:
-                stack.append(token)
-        return len(stack)
+                valid_string += char
+        return valid_string
 
 ```
 

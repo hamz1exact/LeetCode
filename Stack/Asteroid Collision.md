@@ -1,13 +1,10 @@
 # 735. Asteroid Collision
 
 Difficulty: Medium
-Status: Need to be reviewed
 Priority: High
 Topic: Stack
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: August 16, 2025 3:40 AM
-Solved by my own: False
 
 $$
 Solution

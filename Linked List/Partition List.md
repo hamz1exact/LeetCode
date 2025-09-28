@@ -1,12 +1,10 @@
 # 2161. Partition Array According to Given Pivot
 
 Difficulty: Medium
-Status: Mastred
 Priority: High
 Topic: Array
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: August 12, 2025 4:11 AM
 
 $$
 Solution

@@ -1,13 +1,10 @@
 # 2130. Maximum Twin Sum of a Linked List
 
 Difficulty: Medium
-Status: Mastred
 Priority: Medium
 Topic: Linked List
 Time Complexity: O(n)
 Space Complexity: O(1)
-Created time: August 25, 2025 7:50 PM
-Solved by my own: True
 
 $$
 Solution

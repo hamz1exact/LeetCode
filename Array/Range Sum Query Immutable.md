@@ -2,13 +2,11 @@
 
 Link: https://leetcode.com/problems/range-sum-query-immutable/description/
 Difficulty: Easy
-Status: Need to be reviewed
 Patterns: Prefix Sum
 Priority: Medium
 Topic: Array
 Time Complexity: O(n) O(1)
 Space Complexity: O(1)
-Created time: July 4, 2025 11:00 AM
 
 ```python
 Problem Solution:

@@ -2,13 +2,11 @@
 
 Link: https://leetcode.com/problems/single-number/description/
 Difficulty: Easy
-Status: Mastred
 Patterns: Sorting, Two Pointers
 Priority: Medium
 Topic: Array
 Time Complexity: O(n)
 Space Complexity: None
-Created time: July 29, 2025 8:02 PM
 
 $$
 Solution

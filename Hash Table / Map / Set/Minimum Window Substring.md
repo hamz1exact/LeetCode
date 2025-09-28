@@ -1,13 +1,10 @@
-# 1984. Minimum Difference Between Highest and Lowest of K Scores
+# 1249. Minimum Remove to Make Valid Parentheses
 
-Difficulty: Easy
-Status: Mastred
-Priority: High
-Topic: Array
+Difficulty: Medium
+Priority: Medium
+Topic: Stack
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: August 15, 2025 2:42 AM
-Solved by my own: True
 
 $$
 Solution
@@ -15,16 +12,27 @@ $$
 
 ```python
 class Solution:
-    def minimumDifference(self, nums: List[int], k: int) -> int:
-        nums.sort()
-        l = 0
-        min_diff = float('inf')
-        for r in range(len(nums)):
-            if r - l + 1 == k:
-                min_diff = min(min_diff, nums[r] - nums[l])
-                l += 1
-            r += 1
-        return min_diff
+    def minRemoveToMakeValid(self, s: str) -> str:
+
+        valid_string = ""
+        stack = []
+        unique_case = []
+        for i,char in enumerate(s):
+            if char == ")" and not stack:
+                unique_case.append(i)
+            elif char == "(":
+                stack.append(i)
+            elif char == ")":
+                stack.pop()
+        stack += unique_case
+        stack = set(stack)
+        for i, char in enumerate(s):
+            if i in stack:
+                continue
+            else:
+                valid_string += char
+        return valid_string
+
 ```
 
 $$

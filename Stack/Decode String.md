@@ -1,13 +1,10 @@
 # 394. Decode String
 
 Difficulty: Medium
-Status: Mastred
 Priority: High
 Topic: Stack
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: August 28, 2025 12:56 PM
-Solved by my own: True
 
 $$
 Solution

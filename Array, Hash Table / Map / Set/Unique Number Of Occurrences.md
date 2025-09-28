@@ -2,13 +2,11 @@
 
 Link: https://leetcode.com/problems/unique-number-of-occurrences/description/
 Difficulty: Easy
-Status: Mastred
 Patterns: Hashing
 Priority: Low
 Topic: Array, Hash Table / Map / Set
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: August 1, 2025 1:53 AM
 
 $$
 Solution

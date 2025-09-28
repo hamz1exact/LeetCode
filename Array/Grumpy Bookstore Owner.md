@@ -1,13 +1,10 @@
 # 1052. Grumpy Bookstore Owner
 
 Difficulty: Medium
-Status: Mastred
 Priority: High
 Topic: Array
 Time Complexity: O(n)
 Space Complexity: O(1)
-Created time: August 15, 2025 2:45 AM
-Solved by my own: False
 
 $$
 Solution

@@ -1,13 +1,10 @@
 # 3090. Maximum Length Substring With Two Occurrences
 
 Difficulty: Easy
-Status: Mastred
 Priority: High
 Topic: Sliding Window
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: August 28, 2025 10:05 PM
-Solved by my own: True
 
 $$
 Solution

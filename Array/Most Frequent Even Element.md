@@ -1,13 +1,10 @@
 # 2958. Length of Longest Subarray With at Most K Frequency
 
 Difficulty: Medium
-Status: Mastred
 Priority: Medium
 Topic: Sliding Window
 Time Complexity: O(n)
 Space Complexity: O(1)
-Created time: August 23, 2025 2:13 PM
-Solved by my own: True
 
 $$
 Solution

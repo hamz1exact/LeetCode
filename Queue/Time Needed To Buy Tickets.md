@@ -1,13 +1,10 @@
 # 1701. Average Waiting Time
 
 Difficulty: Medium
-Status: Mastred
 Priority: Low
 Topic: intervals
 Time Complexity: O(n)
 Space Complexity: O(1)
-Created time: August 21, 2025 12:53 PM
-Solved by my own: True
 
 $$
 Solution

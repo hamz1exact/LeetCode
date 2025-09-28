@@ -1,13 +1,10 @@
 # 25. Reverse Nodes in k-Group
 
 Difficulty: Hard
-Status: Mastred
 Priority: High
 Topic: Linked List
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: August 21, 2025 2:09 PM
-Solved by my own: True
 
 $$
 Solution

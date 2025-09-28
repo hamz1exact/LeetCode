@@ -1,13 +1,10 @@
-# 32. Longest Valid Parentheses
+# 594. Longest Harmonious Subsequence
 
-Difficulty: Hard
-Status: Need to be reviewed
-Priority: High
-Topic: Stack
+Difficulty: Easy
+Priority: Medium
+Topic: Sliding Window
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: August 21, 2025 12:53 PM
-Solved by my own: False
 
 $$
 Solution
@@ -15,23 +12,19 @@ $$
 
 ```python
 class Solution:
-    def longestValidParentheses(self, s: str) -> int:
-        stack = [-1]   # sentinel base
-        max_len = 0
+    def findLHS(self, nums: List[int]) -> int:
 
-        for i, ch in enumerate(s):
-            if ch == '(':
-                stack.append(i)
-            else:  # ch == ')'
-                stack.pop()
-                if not stack:
-                    # reset base
-                    stack.append(i)
-                else:
-                    # valid substring length
-                    max_len = max(max_len, i - stack[-1])
+        freq = {}
+        max_cnt = 0
+        for num in nums:
+            freq[num] = freq.get(num, 0) + 1
+            if num - 1 in freq:
+                max_cnt = max(max_cnt, freq[num] + freq[num-1])
+            if num + 1 in freq:
+                max_cnt = max(max_cnt, freq[num] + freq[num+1])
 
-        return max_len
+        return max_cnt
+
 ```
 
 $$

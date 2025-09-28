@@ -1,13 +1,10 @@
 # 901. Online Stock Span
 
 Difficulty: Medium
-Status: Mastred
 Priority: Medium
 Topic: Stack
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: August 19, 2025 2:14 PM
-Solved by my own: False
 
 $$
 Solution

@@ -1,13 +1,10 @@
 # 2024. Maximize the Confusion of an Exam
 
 Difficulty: Medium
-Status: Mastred
 Priority: Medium
 Topic: Sliding Window
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: September 6, 2025 12:57 AM
-Solved by my own: True
 
 $$
 Solution

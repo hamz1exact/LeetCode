@@ -2,13 +2,11 @@
 
 Link: https://leetcode.com/problems/summary-ranges/submissions/1709752564/
 Difficulty: Easy
-Status: Need to be reviewed
 Patterns: Iteration
 Priority: Medium
 Topic: Array
 Time Complexity: O(n)
 Space Complexity: O(n)
-Created time: July 24, 2025 2:40 PM
 
 $$
 Solution

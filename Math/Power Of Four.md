@@ -1,26 +1,49 @@
-# 326. Power of Three
+# 3254. Find the Power of K-Size Subarrays I
 
-Link: https://leetcode.com/problems/power-of-three/description/
-Difficulty: Easy
-Status: Mastred
-Patterns: Modulo Arithmetic
+Difficulty: Medium
 Priority: Medium
-Topic: Integers
+Topic: Sliding Window
 Time Complexity: O(n)
-Space Complexity: O(1)
-Created time: July 3, 2025 11:55 PM
+Space Complexity: O(n)
+
+$$
+Solution
+$$
 
 ```python
-Solution:
 class Solution:
-    def isPowerOfThree(self, n: int) -> bool:
-        if n < 1:
-            return False
-        n = float(n)
-        while n.is_integer():
-            if n == 1:
-                return True
-            n = n / 3
-        return False
-        
+    def resultsArray(self, nums: List[int], k: int) -> List[int]:
+        l = 0
+        ans = [0] * len(nums)
+        for r in range(len(nums)):
+            if r-l+1 == k:
+                n = nums[l]
+                ans[l] = n
+                for i in range(l+1, l + k):
+                    if nums[i] <= ans[l]:
+                        ans[l] = -1
+                        break
+                    elif nums[i] == ans[l] + 1:
+                        ans[l] = nums[i]
+                    else:
+                        ans[l] = -1
+                        break
+                l += 1
+        return ans[:l]
+```
+
+$$
+Explaining
+$$
+
+```
+
+```
+
+$$
+Stuck-Point
+$$
+
+```
+
 ```
